@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">VAMEDIABOX</string>
+
+    <string name="message"> This user Joined</string>
+
+    <string name="text_home">Home</string>
+    <string name="text_about">About Us</string>
+    <string name="text_services">Services</string>
+    <string name="text_portfolio">Portfolio</string>
+
+    <string name="action_send">Send</string>
+    <string name="prompt_message">Message</string>
+
+    <string name="connect">Connected</string>
+    <string name="disconnect">Disconnected, Please check your internet connection</string>
+    <string name="error_connect">Failed to connect</string>
+    <string name="message_user_joined">%s joined</string>
+    <string name="message_user_left">%s left</string>
+    <string name="message_welcome">Welcome to VAMedia BOX Chat –</string>
+    <string name="user_action_typing">is typing</string>
+
+    <plurals name="message_participants">
+        <item quantity="one">there\'s %d participant</item>
+        <item quantity="other">there are %d participants</item>
+    </plurals>
+
+    <string name="activity_home">VAMedia Box is formed with the goal of offering Unique and delightful business experience on digital platform.\n\nWe at VAMediaBox focus around delivering exceptional business solutions and customer value to our clients worldwide through Website Design and Development, SEO, SEM, Digital Marketing and Social Media Marketing.\n\nWe pursue relationships based on transparency and integrity with our business partners, customers and our employees.</string>
+    <string name="activity_aboutus">VAMediabox is a universal technology and services company that helps customer’s transforms and think their digital approaches. \n\nWith a target on enterprise mobility, cloud computing, and customer experiences, VAMediabox strives to perform and exceed your business aims. \n\nOur team is differentiated by significance on great design skills that we deliver to every project. \n\nVAMediabox’s work status and culture cause team members to be new and creative, and to give customers with an extraordinary partnership experience.</string>
+    <string name="activity_address"><b>ADDRESS</b></string>
+    <string name="activity_address1"><b>A-3/4,2nd Floor,Citizen Sanjeev Tower,\nJanakpuri,(Nearest Metro Station - Uttam Nagar East),\nNew Delhi 110058, India </b></string>
+    <string name="activity_contactus"><b>CONTACT DETAILS</b></string>
+    <string name="activity_contactus1"><b>Phone : 011-46062181 , +91-9599449323\n\nEmail : info@vamediabox.com\n\nWebsite : www.vamediabox.com</b></string>
+
+    <string name="service_wd"><b>Web Design &amp; Development</b></string>
+    <string name="service_sd"><b>Software Development</b></string>
+    <string name="service_gd"><b>Graphic Design</b></string>
+    <string name="service_seo"><b>Search Engine Optimization</b></string>
+
+    <string name="service_md"><b>Mobile App Development</b></string>
+    <string name="service_ev"><b>Explainer Videos</b></string>
+    <string name="service_dm"><b>Digital Marketing</b></string>
+    <string name="service_it"><b>IT Services</b></string>
+
+    <string name="service_es"><b>Ecommerce Solutions</b></string>
+    <string name="service_bpo"><b>BPO Inbound &amp; Outbound Sourcing</b></string>
+
+
+
+    <string name="wd_content">We develop high-quality, responsive websites that will enlist your viewers. We also redesign and renew current web sites.</string>
+    <string name="sd_content">VAMediabox, a software and web application solution provider company delivers a range of software development solutions to customers across the world.</string>
+
+    <string name="gd_content">We’re known for design. That’s how you experience you’ll receive inspired, efficient, creative work for your brand. Our designs are visually brilliant, and move your clients to action.</string>
+    <string name="seo_content">We’ll make sure your website is optimized perfectly in order to rank high on the top search engines.</string>]
+
+    <string name="md_content">VAMediabox is a best Mobile App Development Company in India &amp; USA. Offers iPhone, iPad, Windows, Android App Development.</string>
+    <string name="ev_content">VAMediabox is an explainer video production company specializing in animated explainer videos, demo videos, collective video and marketing video for business.</string>
+
+    <string name="dm_content">VAMediabox is a full service digital marketing company that offers internet marketing services including SEO, Email, Social, and PPC &amp; Website Development.</string>
+    <string name="it_content">We provide a wide variation of support for web hosting maintenance and troubleshooting. Including fixing website issues and transfers.</string>
+
+    <string name="es_content">We offer end-to-end e-Commerce services to development Companies, businesses and SMEs, permissive them to drive revenue over online sales.</string>
+    <string name="bpo_content">VAMediabox offers several Inbound, Outbound, BPO services from India. Customer service, Telemarketing, Lead generation etc are few of them.</string>
+
+
+</resources>

@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/background"
+    tools:context="com.vamediabox.vamediaboxapp.activities.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@color/colorPrimary">
+
+    </RelativeLayout>
+
+
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+       >
+
+
+
+        <android.support.v7.widget.CardView
+
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/rl_slider"
+            android:gravity="center_horizontal"
+            app:cardUseCompatPadding="true"
+            app:cardElevation="4dp"
+            app:cardCornerRadius="3dp"
+            app:cardPreventCornerOverlap="false"
+            android:layout_centerHorizontal="true">
+
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="2dp"
+                android:id="@+id/rl1">
+
+            <cn.trinea.android.view.autoscrollviewpager.AutoScrollViewPager
+                android:id="@+id/pager"
+                android:layout_width="fill_parent"
+                android:layout_height="200dp"
+                android:layout_margin="2dp"
+                android:layout_alignParentTop="true" />
+
+
+
+                <com.viewpagerindicator.CirclePageIndicator
+                    android:id="@+id/indicator"
+                    android:layout_width="fill_parent"
+                    android:layout_height="20dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@+id/pager"
+                    android:padding="5dip"
+                    app:centered="true"
+                    app:fillColor="@color/colorPrimary"
+                    app:pageColor="@color/view_color"
+                    app:snap="false" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:id="@+id/tv_slider"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="5dp"
+                android:textSize="14sp"
+                android:layout_below="@+id/indicator"
+                android:textColor="@color/slider_text"
+
+                />
+
+
+            </RelativeLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="296dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/rl_btn"
+            android:layout_below="@+id/rl_slider"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            app:cardUseCompatPadding="true"
+            app:cardElevation="3dp"
+            app:cardCornerRadius="3dp"
+            app:cardPreventCornerOverlap="false"
+            android:layout_centerHorizontal="true">
+
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/rl2">
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tv_button"
+                    android:layout_marginTop="18dp"
+                    android:layout_marginLeft="15dp"
+                    android:text="We'r there for you"
+                    android:textSize="14sp"
+                    android:textColor="@color/slider_text"/>
+                
+                
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="5dp"
+                    android:layout_alignRight="@+id/tv_button"
+                    android:src="@drawable/vector" />
+
+
+                <Button
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:id="@+id/btn_touch"
+                    android:text="Get in Touch"
+                    android:textColor="@color/white"
+                    android:textSize="10sp"
+                    android:background="@drawable/button_shape"
+                    android:layout_below="@+id/tv_button"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="10dp"/>
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="296dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/rl_btn1"
+            android:layout_below="@+id/rl_btn"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            app:cardUseCompatPadding="true"
+            app:cardElevation="3dp"
+            app:cardCornerRadius="3dp"
+            app:cardPreventCornerOverlap="false"
+            android:layout_centerHorizontal="true">
+
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/rl21">
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tv_button1"
+                    android:layout_marginTop="18dp"
+                    android:layout_marginLeft="15dp"
+                    android:text="We'r there for you"
+                    android:textSize="14sp"
+                    android:textColor="@color/slider_text"/>
+
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="5dp"
+                    android:layout_alignRight="@+id/tv_button"
+                    android:src="@drawable/vector" />
+
+
+                <Button
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:id="@+id/btn_touch1"
+                    android:text="Get in Touch"
+                    android:textColor="@color/white"
+                    android:textSize="10sp"
+                    android:background="@drawable/button_shape"
+                    android:layout_below="@+id/tv_button"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="10dp"/>
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+
+
+    </RelativeLayout>
+
+</ScrollView>
+</RelativeLayout>

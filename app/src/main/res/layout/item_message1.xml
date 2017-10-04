@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clipChildren="false"
+    android:paddingBottom="10dp"
+    android:paddingTop="10dp">
+
+
+    <RelativeLayout
+        android:id="@+id/othermessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout
+            android:id="@+id/message_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingEnd="100dp">
+
+            <TextView
+                android:id="@+id/message"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:textColor="@color/black"
+                android:paddingLeft="25dp"
+                android:paddingRight="10dp"
+                android:paddingTop="2.5dp"
+                android:paddingBottom="2.5dp"
+
+                android:background="@drawable/chat_in"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/lblDate"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:textSize="12dp"
+            android:layout_toEndOf="@id/message_container"
+            android:layout_marginLeft="-80dp"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/colorprimarylight"
+            android:textStyle="normal"
+            android:padding="5dp"
+            />
+
+    </RelativeLayout>
+    </RelativeLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:enabled="true"
+        app:showAsAction="always|withText"
+        android:icon="@drawable/ic_tab_home"
+        android:title="@string/text_home" />
+
+    <item
+        android:id="@+id/navigation_aboutus"
+        android:enabled="true"
+        app:showAsAction="always|withText"
+        android:icon="@drawable/ic_tab_aboutus"
+        android:title="@string/text_about"
+        />
+
+    <item
+        android:id="@+id/navigation_services"
+        android:enabled="true"
+        app:showAsAction="always|withText"
+        android:icon="@drawable/ic_tab_services"
+        android:title="@string/text_services"
+        />
+
+    <item
+        android:id="@+id/navigation_portfolio"
+        android:enabled="true"
+        app:showAsAction="always|withText"
+        android:icon="@drawable/ic_tab_portfolio"
+        android:title="@string/text_portfolio"
+        />
+
+    <item
+        android:id="@+id/navigation_contactus"
+        android:enabled="true"
+        app:showAsAction="always|withText"
+        android:icon="@drawable/ic_tab_aboutus"
+        android:title="@string/text_about"
+        />
+
+
+</menu>

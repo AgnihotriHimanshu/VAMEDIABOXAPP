@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1">
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/darker_blue"
+        android:textColor="@color/colorAccent"
+        android:id="@+id/tv_address"
+        android:textSize="20sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:elevation="4dp"
+        android:textColorHighlight="@color/white"
+        android:layout_marginTop="20dp"
+        android:paddingTop="5dp"
+        android:text="@string/activity_address"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/darker_blue"
+        android:layout_below="@+id/tv_address"
+        android:textColor="@color/black1"
+        android:id="@+id/tv_address1"
+        android:textSize="15sp"
+        android:padding="10dp"
+        android:elevation="4dp"
+        android:textColorHighlight="@color/white"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="@string/activity_address1"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/darker_blue"
+        android:textColor="@color/colorAccent"
+        android:id="@+id/tv_contactus"
+        android:textSize="20sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:elevation="4dp"
+        android:textColorHighlight="@color/white"
+        android:layout_below="@+id/tv_address1"
+        android:layout_marginTop="10dp"
+        android:paddingTop="5dp"
+        android:text="@string/activity_contactus"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/darker_blue"
+        android:layout_below="@+id/tv_contactus"
+        android:textColor="@color/black1"
+        android:id="@+id/tv_contactus1"
+        android:textSize="15sp"
+        android:elevation="4dp"
+        android:textColorHighlight="@color/white"
+        android:padding="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="@string/activity_contactus1"
+        />
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/iv_question"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/question1"
+        android:scaleType="fitXY"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/tv_contactus1"
+        android:layout_alignParentEnd="true" />
+
+
+
+    <Button
+        android:id="@+id/btnmessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/darker_blue"
+        android:elevation="4dp"
+        android:textColorHighlight="@color/white"
+        android:textAlignment="center"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="Send Message"
+        android:textColor="#fff"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+
+
+
+
+
+
+
+</RelativeLayout>

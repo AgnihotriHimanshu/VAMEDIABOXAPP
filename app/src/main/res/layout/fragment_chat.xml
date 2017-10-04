@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/chatparent"
+    android:background="@color/background">
+    <include layout="@layout/chattoolbar"/>
+
+
+
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_messages"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:scrollbars="vertical"
+        android:scrollbarStyle="outsideOverlay"/>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom">
+
+
+
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+
+
+
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="0.80"
+                android:background="@color/colorPrimary" />
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="0.20"
+                android:background="@color/black"/>
+
+   </LinearLayout>
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rl_typing"
+            android:background="@drawable/chatbox"
+            android:orientation="horizontal"
+            android:paddingLeft="5dp"
+            android:paddingRight="10dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="2dp"
+            >
+
+
+            <Button
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:background="@drawable/ic_emoticons"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:gravity="bottom"
+                android:id="@+id/btn_emoji"
+                />
+
+
+
+            <EditText
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:minLines="1"
+                android:maxLines="20"
+                android:lines="8"
+                android:imeActionId="@+id/send"
+                android:imeActionLabel="actionSend"
+                android:imeOptions="actionSend"
+                android:scrollbars="vertical"
+                android:textColor="@color/monsoon"
+                android:textColorHint="@color/dark_gray"
+                android:id="@+id/et_message"
+                android:textSize="13sp"
+                android:hint=" Type Your Message Here..."
+                android:layout_toEndOf="@id/btn_emoji"
+                tools:ignore="HardcodedText" />
+
+
+
+            <Button
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:background="@drawable/ic_attachment"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:gravity="bottom"
+                android:id="@+id/btn_attach"
+                android:layout_toEndOf="@id/et_message"/>
+
+
+            <Button
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:background="@drawable/ic_camera"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:id="@+id/btn_camera"
+                android:layout_toEndOf="@id/btn_attach"/>
+
+
+        </RelativeLayout>
+
+        <Button
+            android:layout_width="30dp"
+            android:layout_height="35dp"
+            android:id="@+id/btn_send"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="7.5dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="3dp"
+            android:layout_toEndOf="@id/rl_typing"
+            android:background="@drawable/ic_send" />
+
+
+
+
+    </RelativeLayout>
+</LinearLayout>
